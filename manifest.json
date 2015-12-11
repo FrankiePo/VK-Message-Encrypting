@@ -1,7 +1,7 @@
 {
    "content_scripts": [ {
       "all_frames": true,
-      "js": [ "aes.js", "vk.js", "BigInt.js" ],
+      "js": [ "aes.js", "vk.js" ],
       "matches": [ "http://vk.com/*", "https://vk.com/*" ],
       "run_at": "document_end"
    } ],
@@ -14,9 +14,6 @@
       "16": "icon16.png",
       "48": "icon48.png"
    },
-   "web_accessible_resources": [
-      "BigInt.js"
-   ],
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQClfHtu8QU4G0B2at/xVhBArC5UimQ5w/IW7c7FWHOnBKhlOExVk6uhiOSahyo6IpoRb3It66ktM4nbmt1OT184lDfvDw+RkIFbX4AbLx3Gm+3rJYgLSSSftfBRfWjlCe581b06Mq/xR/cU72v/8a/5M0lFhokJdFmMMLb9z0AH0wIDAQAB",
    "manifest_version": 2,
    "name": "VkCrypt",
